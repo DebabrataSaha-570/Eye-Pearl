@@ -1,0 +1,64 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import image1 from '../../../Images/eyeCareKids.jpeg'
+import './Footer.css'
+const Footer = () => {
+    return (
+        <>
+            <footer className="eyePearl-footer p-5">
+                <section className="container">
+                    <div className="row ">
+                        <div className="col-md-3">
+                            <div>
+                                <h2 className="mb-5 EP-heading-color">Eye Pearl</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, blanditiis.</p>
+                                <button className="EP-Footer-btn rounded-pill py-3 px-4">Book Appointment</button>
+                            </div>
+                        </div>
+                        <div className="col-md-2">
+                            <div>
+                                <h3 className="EP-heading-color">Links</h3>
+                                <Link> <p>About</p> </Link>
+                                <Link>  <p>Treatments</p></Link>
+                                <Link> <p>Our Doctors</p> </Link>
+                                <Link> <p>Before and After</p></Link>
+                                <Link> <p>Site Map</p> </Link>
+                            </div>
+                        </div>
+                        <div className="col-md-1">
+                            <div className="mt-5">
+                                <Link>
+                                    <p>Contact</p>
+                                </Link>
+                                <Link><p>Help</p></Link>
+                                <Link><p>PrivacyPolicy</p></Link>
+                                <Link><p>Appointment</p></Link>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <h3 className="EP-heading-color">News</h3>
+                            <div className="d-flex">
+                                <div>
+                                    <img className="w-50" src={image1} alt="" />
+                                </div>
+                                <div>
+                                    <small>October 2016, 2020</small>
+                                    <p>The best eye care service for kids</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-3">
+                            <h3 className="EP-heading-color">Contact</h3>
+                            <p>22334455</p>
+                            <p>eyepearl@gmail.com</p>
+                            <p>66 Bekar Street , Noakhali, Bangladesh</p>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </>
+    );
+};
+
+export default Footer;

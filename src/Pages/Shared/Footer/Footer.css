@@ -1,0 +1,22 @@
+.eyePearl-footer{
+    /* background-color: #8A8C93; */
+    /* background-color: #8a8c93; */
+    background-color: #353742;
+}
+.eyePearl-footer a{
+    color: #8a8c93;
+    text-decoration: none;
+}
+
+.eyePearl-footer a:hover{
+    color: #02c18d;
+}
+.EP-Footer-btn{
+    background-color: #02c18d;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.EP-heading-color{
+    color: #FFFFFF;
+}

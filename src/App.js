@@ -11,6 +11,7 @@ import Header from './Pages/Shared/Header/Header';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Login from './Pages/Login/Login/Login';
 import Contact from './Pages/Contact/Contact';
+import Footer from './Pages/Shared/Footer/Footer';
 function App() {
   return (
     <Router>
@@ -35,6 +36,7 @@ function App() {
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }

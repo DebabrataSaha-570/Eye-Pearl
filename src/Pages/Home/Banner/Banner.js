@@ -10,14 +10,25 @@ const Banner = () => {
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
+                    {/* <div class="carousel-item active">
+                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
+                    </div> */}
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <div className="row">
+                            <div className="col-md-4">
+                                <h3>this is text </h3>
+                            </div>
+                            <div className="col-md-8">
+
+                                <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
