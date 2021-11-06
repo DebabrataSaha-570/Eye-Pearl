@@ -18,10 +18,10 @@ const Banner = () => {
 
                     </div>
                     <div class="carousel-item">
-                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
+                        <img src="https://i.ibb.co/Fw8Q7DQ/man-having-eye-sight-check-ophthalmology-clinic-2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
+                        <img src="https://i.ibb.co/xM7SP3B/ophthalmologist-checking-patient-her-clinic.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
