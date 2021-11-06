@@ -14,15 +14,8 @@ const Banner = () => {
                         <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
                     </div> */}
                     <div class="carousel-item active">
-                        <div className="row">
-                            <div className="col-md-4">
-                                <h3>this is text </h3>
-                            </div>
-                            <div className="col-md-8">
+                        <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
 
-                                <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />
-                            </div>
-                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://i.ibb.co/t8j4m7D/man-having-eye-sight-check-ophthalmology-clinic-3.jpg" class="d-block w-100" alt="..." />

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "ServiceName": "Surgical Procedure",
+        "image": "https://i.ibb.co/n0gL91K/service1.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum."
+    },
+    {
+        "id": 2,
+        "ServiceName": "All Laser Lasik",
+        "image": "https://i.ibb.co/1QSZqjr/service3.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum."
+    },
+    {
+        "id": 3,
+        "ServiceName": "Cornea & Glaucoma",
+        "image": "https://i.ibb.co/qkYcnbJ/service6.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum."
+    },
+    {
+        "id": 4,
+        "ServiceName": "Pediatric Eye Exams",
+        "image": "https://i.ibb.co/SxhFBJf/Child-eye-test-and-eye-exam-Little-girl-having-eye-check-up-with-phoropter-Doctor-performs-eye-test.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum.",
+        "benefits": {
+            "first": "It's Good",
+            "second": "It's very good",
+            "Third": "It's very very good",
+            "Fourth": "It's excelient"
+        }
+    },
+    {
+        "id": 5,
+        "ServiceName": "Low Vision",
+        "image": "https://i.ibb.co/Q94Pmvw/service5.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum."
+    },
+    {
+        "id": 6,
+        "ServiceName": "Comprehensive Eye Exams",
+        "image": "https://i.ibb.co/Njg5Cr5/service2.jpg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores dignissimos quibusdam nisi eligendi culpa fugit ad earum saepe iste porro sapiente odio doloremque quia omnis vel, facere voluptatem dolorem ab. Optio vitae reiciendis corporis rem accusamus laudantium iure fuga, minus dicta veritatis quaerat necessitatibus fugit illo non! Reiciendis, quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea voluptatem consectetur. Iure provident accusamus expedita, vitae exercitationem repellat facere culpa est nisi voluptate, amet laborum ut? Quae explicabo doloribus voluptatem illum eaque ipsam tenetur, quos nisi reprehenderit neque saepe earum consequatur corrupti rerum. Cum cupiditate commodi aperiam iste earum."
+    }
+]
