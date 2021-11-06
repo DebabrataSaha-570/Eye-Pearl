@@ -1,23 +1,23 @@
 import React from 'react';
-import UseAuth from '../../../Context/UseAuth';
 import { Link } from 'react-router-dom'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Login.css'
-const Login = () => {
+import UseAuth from '../../../Context/UseAuth';
+const SignUp = () => {
     const { SignInWithGoogle, user, LogOut } = UseAuth()
     return (
         <>
             <section >
 
                 <div className="w-25 mx-auto border border-light px-4 py-5 shadow-lg m-5">
-                    <h1 className="text-center">Login Form</h1>
+                    <h1 className="text-center">SignUp Form</h1>
+                    <input type="text" className="form-control my-3" placeholder="Name" />
                     <input type="email" className="form-control my-3" placeholder="Email" />
                     <input type="password" className="form-control mt-3 mb-3" placeholder="Password" />
-                    <button className="w-100 btn btn-primary">Login</button>
+                    <button className="w-100 btn btn-primary">SignUp</button>
 
                     <div className="text-end my-3">
-                        <Link to="/signUp">Don't Have an Account?</Link>
+                        <Link to="/login">AlReady have an Account?</Link>
                     </div>
 
                     <div className="text-center">
@@ -30,9 +30,8 @@ const Login = () => {
                 </div>
 
             </section>
-
         </>
     );
 };
 
-export default Login;
+export default SignUp;

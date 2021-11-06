@@ -15,6 +15,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import SignUp from './Pages/Login/SignUp/SignUp';
 function App() {
   return (
     <AuthProvider>
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/signUp">
+            <SignUp></SignUp>
           </Route>
           <PrivateRoute path="/serviceDetail/:id">
             <ServiceDetail></ServiceDetail>
