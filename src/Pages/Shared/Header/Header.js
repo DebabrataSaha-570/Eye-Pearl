@@ -29,7 +29,7 @@ const Header = () => {
                             <li class="nav-item">
                                 <a class="nav-link " href="#services">Services</a>
                             </li>
-                            {user.displayName ?
+                            {user.displayName || user.email ?
                                 <button onClick={LogOut} className="btn btn-primary">Log out</button>
                                 : <li class="nav-item">
                                     <Link class="nav-link " to="/login">Login</Link>
@@ -40,11 +40,18 @@ const Header = () => {
 
 
 
-                            {user.displayName && <li class="nav-item">
-                                <a class="nav-link disabled">
-                                    <img src={user.photoURL} alt="" width="40" height="30" />
-                                </a>
-                            </li>}
+                            {user.displayName || user.email ?
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">
+                                        <img src={user.photoURL} alt="img" width="40" height="30" />
+                                    </a>
+
+                                </li>
+                                :
+                                <span></span>
+                            }
+
+
                         </ul>
 
                     </div>
