@@ -13,35 +13,39 @@ import Login from './Pages/Login/Login/Login';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Shared/Footer/Footer';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 function App() {
   return (
-    <Router>
-      <Header> </Header>
-      <Switch>
-        <Route path="/home">
-          <Home></Home>
-        </Route>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route path="/aboutUs">
-          <AboutUs></AboutUs>
-        </Route>
-        <Route path="/login">
-          <Login></Login>
-        </Route>
-        <Route path="/contact">
-          <Contact></Contact>
-        </Route>
-        <Route path="/serviceDetail/:id">
-          <ServiceDetail></ServiceDetail>
-        </Route>
-        <Route path="*">
-          <NotFound></NotFound>
-        </Route>
-      </Switch>
-      <Footer></Footer>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Header> </Header>
+        <Switch>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/aboutUs">
+            <AboutUs></AboutUs>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
+          </Route>
+          <PrivateRoute path="/serviceDetail/:id">
+            <ServiceDetail></ServiceDetail>
+          </PrivateRoute>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
+    </AuthProvider>
   );
 }
 

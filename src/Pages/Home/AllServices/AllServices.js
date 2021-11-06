@@ -14,7 +14,7 @@ const AllServices = () => {
     console.log(services)
     return (
         <>
-            <section className="container my-5">
+            <section className="container my-5" id="services">
                 <div className="my-5 text-center">
                     <h1><span className="services-color-1">Services</span> We are Offerings </h1>
                     <h1>To Our Clients</h1>

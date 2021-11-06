@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import UseAuth from '../../../Context/UseAuth';
+import './Header.css'
 
 const Header = () => {
+    const { user, LogOut } = UseAuth()
     return (
         <>
-            <nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
 
                 <div class="container">
 
@@ -24,22 +27,24 @@ const Header = () => {
                                 <Link class="nav-link " to="/aboutUs">About Us</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Services</a>
+                                <a class="nav-link " href="#services">Services</a>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link " to="/login">Login</Link>
-                            </li>
+                            {user.displayName ?
+                                <button onClick={LogOut} className="btn btn-primary">Log out</button>
+                                : <li class="nav-item">
+                                    <Link class="nav-link " to="/login">Login</Link>
+                                </li>}
                             <li class="nav-item">
                                 <Link class="nav-link " to="/contact">Contact</Link>
                             </li>
 
 
 
-                            <li class="nav-item">
+                            {user.displayName && <li class="nav-item">
                                 <a class="nav-link disabled">
-                                    <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" />
+                                    <img src={user.photoURL} alt="" width="40" height="30" />
                                 </a>
-                            </li>
+                            </li>}
                         </ul>
 
                     </div>

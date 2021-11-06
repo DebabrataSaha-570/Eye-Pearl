@@ -1,0 +1,15 @@
+.eye-pearl-input-parent input{
+    background-color: #f4f5f7;
+}
+.eye-pearl-input-parent textarea{
+    background-color: #f4f5f7;
+    width: 33rem;
+    height: 12rem;
+}
+.eye-pearl-heading h1{
+    font-weight: 700;
+}
+.eye-pearl-heading span{
+    color: #02c18d;
+}
+
