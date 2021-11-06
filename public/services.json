@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "ServiceName": "Surgical Procedure",
+        "image": "https://i.ibb.co/n0gL91K/service1.jpg",
+        "detail": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+    },
+    {
+        "id": 2,
+        "ServiceName": "All Laser Lasik",
+        "image": "https://i.ibb.co/1QSZqjr/service3.jpg",
+        "detail": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+    },
+    {
+        "id": 3,
+        "ServiceName": "Cornea & Glaucoma",
+        "image": "https://i.ibb.co/qkYcnbJ/service6.jpg",
+        "detail": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+    },
+    {
+        "id": 4,
+        "ServiceName": "Pediatric Eye Exams",
+        "image": "https://i.ibb.co/SxhFBJf/Child-eye-test-and-eye-exam-Little-girl-having-eye-check-up-with-phoropter-Doctor-performs-eye-test.jpg",
+        "detail": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+    },
+    {
+        "id": 5,
+        "ServiceName": "Low Vision",
+        "image": "https://i.ibb.co/Q94Pmvw/service5.jpg",
+        "detail": "In congue. Etiam justo. Etiam pretium iaculis justo."
+    },
+    {
+        "id": 6,
+        "ServiceName": "Comprehensive Eye Exams",
+        "image": "https://i.ibb.co/Njg5Cr5/service2.jpg",
+        "detail": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+    }
+]

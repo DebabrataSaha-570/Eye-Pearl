@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../../../Images/eyeCareKids.jpeg'
+import image1 from '../../../Images/eyeCareKids.png'
+import image2 from '../../../Images/eyeCareGirl.png'
+
 import './Footer.css'
 const Footer = () => {
     return (
@@ -11,7 +13,7 @@ const Footer = () => {
                         <div className="col-md-3">
                             <div>
                                 <h2 className="mb-5 EP-heading-color">Eye Pearl</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, blanditiis.</p>
+                                <p className="EP-footer-color-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, blanditiis.</p>
                                 <button className="EP-Footer-btn rounded-pill py-3 px-4">Book Appointment</button>
                             </div>
                         </div>
@@ -39,20 +41,29 @@ const Footer = () => {
                             <h3 className="EP-heading-color">News</h3>
                             <div className="d-flex">
                                 <div>
-                                    <img className="w-50" src={image1} alt="" />
+                                    <img className="me-3" src={image1} alt="" />
                                 </div>
                                 <div>
-                                    <small>October 2016, 2020</small>
-                                    <p>The best eye care service for kids</p>
+                                    <small className="EP-color-3">October 2016, 2020</small>
+                                    <p className="EP-heading-color">The best eye care service for kids</p>
+                                </div>
+                            </div>
+                            <div className="d-flex">
+                                <div>
+                                    <img className="me-3" src={image2} alt="" />
+                                </div>
+                                <div>
+                                    <small className="EP-color-3">October 2016, 2020</small>
+                                    <p className="EP-heading-color">You are nothing without your eyes.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-3">
                             <h3 className="EP-heading-color">Contact</h3>
-                            <p>22334455</p>
-                            <p>eyepearl@gmail.com</p>
-                            <p>66 Bekar Street , Noakhali, Bangladesh</p>
+                            <p className="EP-footer-color-2">22334455</p>
+                            <p className="EP-footer-color-2">eyepearl@gmail.com</p>
+                            <p className="EP-footer-color-2">66 Bekar Street , Noakhali, Bangladesh</p>
                         </div>
                     </div>
                 </section>

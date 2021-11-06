@@ -12,6 +12,7 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import Login from './Pages/Login/Login/Login';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Shared/Footer/Footer';
+import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 function App() {
   return (
     <Router>
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact></Contact>
+        </Route>
+        <Route path="/serviceDetail/:id">
+          <ServiceDetail></ServiceDetail>
         </Route>
         <Route path="*">
           <NotFound></NotFound>
