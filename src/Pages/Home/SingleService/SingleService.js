@@ -16,7 +16,7 @@ const SingleService = (props) => {
                     <img src={image} class="card-img-top " alt="..." />
                     <div class="card-body ">
                         <h5 class="card-title">{ServiceName}</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">{detail}</p>
                         <div className="text-center">
                             <button onClick={() => handleDetails(id)} className="EP-service-btn rounded-pill py-2 px-3 ">See Details</button>
                         </div>
