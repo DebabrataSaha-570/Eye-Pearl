@@ -5,8 +5,8 @@ const Faq = () => {
         <>
             <section className="container">
                 <div className="text-center eye-pearl-heading">
-                    <h2>Why Chose <span >Us ?</span></h2>
-                    <p>We Have Best Professional Team To Care Your Eyes</p>
+                    <h2>Frequently Asked <span >Questions</span></h2>
+                    {/* <p>We Have Best Professional Team To Care Your Eyes</p> */}
                 </div>
 
                 <article className="my-5">
