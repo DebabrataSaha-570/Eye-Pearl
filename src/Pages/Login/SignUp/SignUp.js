@@ -8,12 +8,13 @@ const SignUp = () => {
     const [password, setPassword] = useState('')
     const [rePassword, setRePassword] = useState('')
     const [name, setName] = useState('')
-    const { SignInWithGoogle, user, LogOut, CreateNewUser, error } = UseAuth();
+    const { SignInWithGoogle, user, LogOut, CreateNewUser, error, setUserName } = UseAuth();
 
     const handleSignUp = (event) => {
         event.preventDefault()
         console.log('registration will be added', name, email, password, rePassword,)
-        CreateNewUser(email, password)
+        CreateNewUser(email, password, name)
+
     }
     const handleEmailBlur = (event) => {
         setEmail(event.target.value)

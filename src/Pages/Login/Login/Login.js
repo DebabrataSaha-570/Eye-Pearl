@@ -5,7 +5,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Login.css'
 const Login = () => {
-    const { SignInWithGoogle, user, LogOut, LoginUser } = UseAuth()
+    const { SignInWithGoogle, user, LogOut, LoginUser, error } = UseAuth()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -46,30 +46,19 @@ const Login = () => {
                     </div>
                 </div>
 
+                <div className="error text-center">
+                    {user.email || user.displayName ? <p className="text-success"> user loggedIn successfully</p>
+                        :
+                        <span></span>
+                    }
+
+                    {
+                        <p className='text-danger'> {error} </p>
+                    }
+                </div>
             </section>
 
-            {/* <section >
 
-                <div className="w-25 mx-auto border border-light px-4 py-5 shadow-lg m-5">
-                    <h1 className="text-center">Login Form</h1>
-                    <input type="email" className="form-control my-3" placeholder="Email" />
-                    <input type="password" className="form-control mt-3 mb-3" placeholder="Password" />
-                    <button className="w-100 btn btn-primary">Login</button>
-
-                    <div className="text-end my-3">
-                        <Link to="/signUp">Don't Have an Account?</Link>
-                    </div>
-
-                    <div className="text-center">
-                        <small>Or Continue with</small>
-
-                        <h3 className="my-3">
-                            <i onClick={SignInWithGoogle} className="fab fa-google eye-pearl-login-icon"></i>
-                        </h3>
-                    </div>
-                </div>
-
-            </section> */}
 
         </>
     );
