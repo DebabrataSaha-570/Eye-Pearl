@@ -29,6 +29,9 @@ const Header = () => {
                             <li class="nav-item">
                                 <a class="nav-link " href="#services">Services</a>
                             </li>
+                            <li class="nav-item">
+                                <Link class="nav-link " to="/appoinment">Appoinment</Link>
+                            </li>
                             {user.displayName || user.email ?
                                 <button onClick={LogOut} className="btn btn-primary">Log out</button>
                                 : <li class="nav-item">
