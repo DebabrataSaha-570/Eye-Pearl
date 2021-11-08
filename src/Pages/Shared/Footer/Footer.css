@@ -26,3 +26,10 @@
 .EP-color-3{
     color: #02c18d;
 }
+
+@media only screen and (max-width: 688px) {
+    .EP-Footer-btn{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -10,13 +10,14 @@ const Footer = () => {
             <footer className="eyePearl-footer p-5">
                 <section className="container">
                     <div className="row ">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-12">
                             <div>
                                 <h2 className="mb-5 EP-heading-color">Eye Pearl</h2>
                                 <p className="EP-footer-color-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, blanditiis.</p>
                                 <Link to="/appoinment"> <button className="EP-Footer-btn rounded-pill py-3 px-4">Book Appointment</button></Link>
                             </div>
                         </div>
+
                         <div className="col-md-2">
                             <div>
                                 <h3 className="EP-heading-color">Links</h3>
