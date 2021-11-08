@@ -24,37 +24,39 @@ const Login = () => {
     return (
         <>
             <section >
-                <div className="w-25 mx-auto border border-light px-4 py-5 shadow-lg m-5">
-                    <h1 className="text-center">Login Form</h1>
+                <div className="row">
+                    <div className="col-md-3 col-10 mx-auto border border-light px-4 py-5 shadow-lg m-5">
+                        <h1 className="text-center">Login Form</h1>
 
-                    <form onSubmit={handleLoginFormSubmit}>
-                        <input onBlur={handleEmailBlur} type="email" className="form-control my-3" placeholder="Email" />
-                        <input onBlur={handlePasswordBlur} type="password" className="form-control mt-3 mb-3" placeholder="Password" />
-                        <input className="w-100 btn btn-primary" type="submit" value="Login" />
-                    </form>
+                        <form onSubmit={handleLoginFormSubmit}>
+                            <input onBlur={handleEmailBlur} type="email" className="form-control my-3" placeholder="Email" />
+                            <input onBlur={handlePasswordBlur} type="password" className="form-control mt-3 mb-3" placeholder="Password" />
+                            <input className="w-100 btn btn-primary" type="submit" value="Login" />
+                        </form>
 
-                    <div className="text-end my-3">
-                        <Link to="/signUp">Don't Have an Account?</Link>
+                        <div className="text-end my-3">
+                            <Link to="/signUp">Don't Have an Account?</Link>
+                        </div>
+
+                        <div className="text-center">
+                            <small>Or Continue with</small>
+
+                            <h3 className="my-3">
+                                <i onClick={SignInWithGoogle} className="fab fa-google eye-pearl-login-icon"></i>
+                            </h3>
+                        </div>
                     </div>
 
-                    <div className="text-center">
-                        <small>Or Continue with</small>
+                    <div className="error text-center">
+                        {user.email || user.displayName ? <p className="text-success"> user loggedIn successfully</p>
+                            :
+                            <span></span>
+                        }
 
-                        <h3 className="my-3">
-                            <i onClick={SignInWithGoogle} className="fab fa-google eye-pearl-login-icon"></i>
-                        </h3>
+                        {
+                            <p className='text-danger'> {error} </p>
+                        }
                     </div>
-                </div>
-
-                <div className="error text-center">
-                    {user.email || user.displayName ? <p className="text-success"> user loggedIn successfully</p>
-                        :
-                        <span></span>
-                    }
-
-                    {
-                        <p className='text-danger'> {error} </p>
-                    }
                 </div>
             </section>
 
