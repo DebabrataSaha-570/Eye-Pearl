@@ -40,47 +40,5 @@
         "image": "https://i.ibb.co/3RxpQLY/product6.jpg",
         "ratings": 4,
         "price": 15.25
-    },
-    {
-        "id": 7,
-        "productName": "Brittany",
-        "image": "Kirlin",
-        "ratings": "bkirlin6@bigcartel.com",
-        "price": "Polygender"
-    },
-    {
-        "id": 8,
-        "productName": "Ellwood",
-        "image": "Opdenorth",
-        "ratings": "eopdenorth7@dyndns.org",
-        "price": "Polygender"
-    },
-    {
-        "id": 9,
-        "productName": "Ysabel",
-        "image": "Nineham",
-        "ratings": "ynineham8@aboutads.info",
-        "price": "Bigender"
-    },
-    {
-        "id": 10,
-        "productName": "Nico",
-        "image": "Conrad",
-        "ratings": "nconrad9@loc.gov",
-        "price": "Polygender"
-    },
-    {
-        "id": 11,
-        "productName": "Byran",
-        "image": "Lumox",
-        "ratings": "blumoxa@sphinn.com",
-        "price": "Female"
-    },
-    {
-        "id": 12,
-        "productName": "Brandise",
-        "image": "Kentwell",
-        "ratings": "bkentwellb@elpais.com",
-        "price": "Polygender"
     }
 ]
