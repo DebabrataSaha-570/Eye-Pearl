@@ -7,17 +7,17 @@ const Header = () => {
     const { user, LogOut } = UseAuth()
     return (
         <>
-            <nav class="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
+            <nav class="navbar eye-pearl-navbar sticky-top navbar-expand-lg  ">
 
                 <div class="container">
 
-                    <Link class="navbar-brand" to="/home">
-                        EyePearl
+                    <Link class="navbar-brand eye-pearl-brand" to="/home">
+                        <span className="eye-pearl-logo"><i class="fas fa-eye fa-lg"></i></span>  EyePearl
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse eye-pearl-link" id="navbarSupportedContent">
 
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">

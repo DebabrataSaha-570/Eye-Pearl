@@ -2,6 +2,10 @@
     background-color: #353742;
     /* color: #02c18d; */
 }
-.eye-pearl-navbar a{
+.eye-pearl-link a{
+    color: white ; 
+}
+.eye-pearl-brand{
     color: #02c18d;
+    font-weight: 700;
 }
