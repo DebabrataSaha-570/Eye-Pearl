@@ -20,4 +20,11 @@
     color: #02c18d;
     cursor: pointer;
 }
+@media only screen and (max-width: 688px) {
+    .eye-pearl-input-parent textarea{
+        background-color: #f4f5f7;
+        width: 18rem;
+        height: 12rem;
+    }
+}
 
