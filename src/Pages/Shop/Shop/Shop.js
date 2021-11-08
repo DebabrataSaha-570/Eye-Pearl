@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import AllProducts from '../AllProducts/AllProducts';
 import Cart from '../Cart/Cart';
 
@@ -36,7 +36,7 @@ const Shop = () => {
                     </div>
 
                     <div className="col-md-4 col-6">
-                        <Cart cart={cart}></Cart>
+                        <Cart cart={cart} ></Cart>
                     </div>
                 </div>
             </section>
