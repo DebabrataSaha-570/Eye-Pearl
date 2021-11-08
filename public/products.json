@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "productName": "Refrest Optive Advanced Lubricant Eye Drops...",
+        "image": "https://i.ibb.co/p4B5Mvw/product1.jpg",
+        "ratings": 4.5,
+        "price": 7
+    },
+    {
+        "id": 2,
+        "productName": "PuriLens Plus Preservative Free Saline...",
+        "image": "https://i.ibb.co/35x7bts/product2.jpg",
+        "ratings": 5,
+        "price": 40
+    },
+    {
+        "id": 3,
+        "productName": "Refresh Contacts Eye Drops, Contact Lens....",
+        "image": "https://i.ibb.co/Nj1S6xL/product3.jpg",
+        "ratings": 5,
+        "price": 8.50
+    },
+    {
+        "id": 4,
+        "productName": "GenTeal Lubricant Eye Gel, Severe, 0.34 FL Oz",
+        "image": "https://i.ibb.co/KhvJmrt/product4.jpg",
+        "ratings": 4.5,
+        "price": 9.67
+    },
+    {
+        "id": 5,
+        "productName": "Systane Lubricant Eye Gel Drops , 10 mL",
+        "image": "https://i.ibb.co/5RwnG4c/product5.jpg",
+        "ratings": 4.8,
+        "price": 15
+    },
+    {
+        "id": 6,
+        "productName": "Reading Glasses with Comfort Spring Hinges...",
+        "image": "https://i.ibb.co/3RxpQLY/product6.jpg",
+        "ratings": 4,
+        "price": 15.25
+    },
+    {
+        "id": 7,
+        "productName": "Brittany",
+        "image": "Kirlin",
+        "ratings": "bkirlin6@bigcartel.com",
+        "price": "Polygender"
+    },
+    {
+        "id": 8,
+        "productName": "Ellwood",
+        "image": "Opdenorth",
+        "ratings": "eopdenorth7@dyndns.org",
+        "price": "Polygender"
+    },
+    {
+        "id": 9,
+        "productName": "Ysabel",
+        "image": "Nineham",
+        "ratings": "ynineham8@aboutads.info",
+        "price": "Bigender"
+    },
+    {
+        "id": 10,
+        "productName": "Nico",
+        "image": "Conrad",
+        "ratings": "nconrad9@loc.gov",
+        "price": "Polygender"
+    },
+    {
+        "id": 11,
+        "productName": "Byran",
+        "image": "Lumox",
+        "ratings": "blumoxa@sphinn.com",
+        "price": "Female"
+    },
+    {
+        "id": 12,
+        "productName": "Brandise",
+        "image": "Kentwell",
+        "ratings": "bkentwellb@elpais.com",
+        "price": "Polygender"
+    }
+]

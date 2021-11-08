@@ -17,6 +17,8 @@ import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import SignUp from './Pages/Login/SignUp/SignUp';
 import Appoinment from './Pages/Appoinment/Appoinment';
+import Shop from './Pages/Shop/Shop/Shop';
+import Checkout from './Pages/Shop/Checkout/Checkout';
 function App() {
   return (
     <AuthProvider>
@@ -43,6 +45,12 @@ function App() {
           </Route>
           <PrivateRoute path="/appoinment">
             <Appoinment></Appoinment>
+          </PrivateRoute>
+          <Route path="/shop">
+            <Shop></Shop>
+          </Route>
+          <PrivateRoute path="/checkout">
+            <Checkout></Checkout>
           </PrivateRoute>
           <PrivateRoute path="/serviceDetail/:id">
             <ServiceDetail></ServiceDetail>
